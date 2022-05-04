@@ -1,0 +1,50 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0.3",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.13",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-brands-svg-icons": "^5.15.3",
+        "@fortawesome/free-regular-svg-icons": "^5.15.3",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/vue-fontawesome": "^2.0.2",
+        "@ganillagrace/vue-auth": "^2.2.3",
+        "@websanova/vue-auth": "^3.3.8",
+        "bootstrap-vue": "^2.21.2",
+        "es6-promise": "^4.2.8",
+        "strip-ansi": "^6.0.0",
+        "v-switch-case": "^1.0.3",
+        "vue": "^2.6.12",
+        "vue-axios": "^3.2.4",
+        "vue-clipboard2": "^0.3.1",
+        "vue-good-table": "^2.21.9",
+        "vue-input-only-number": "^1.1.0",
+        "vue-json-excel": "^0.3.0",
+        "vue-router": "^3.5.1",
+        "vue2-datepicker": "^3.9.0",
+        "vue2-daterange-picker": "^0.6.5",
+        "vuejs-datatable": "^2.0.0-alpha.7"
+    }
+}
